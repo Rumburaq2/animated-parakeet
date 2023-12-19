@@ -108,7 +108,7 @@ def call_index_template(request, s):
         'item_description': item_descriptionn,
         'item_index_val': item_index_val,
     }
-    return render(request, 'chatgpt.html', context)
+    return render(request, 'chatgptVladimir.html', context)
 
 
 def show_verified(request):
